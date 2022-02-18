@@ -1,0 +1,184 @@
+/**************** banner part css start ****************/
+body{
+  font-family: "Trirong", serif;
+
+}
+.banner_part {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url("img/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+  }
+  h1{
+    font-weight: bold;
+    font-family: "Trirong", serif;
+    text-align: center;
+  }
+  @media (max-width: 576px) {
+    .banner_part {
+      height: 300px;
+      background-image: none;
+      background-color: #f0eed4;
+      color: #30304e;
+    }
+   
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part {
+      height: 400px;
+      background-image: none;
+      background-color: #f0eed4;
+      color: #30304e;
+
+    }
+    .map{
+        width: 600px;
+        height: 500px;
+    } .cancelbtn, .signupbtn {
+        width: 100%;
+     }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part {
+      height: 400px;
+      background-image: none;
+      background-color: #f0eed4;
+      color: #30304e;
+
+    }
+    .map{
+        width: 800px;
+        height: 500px;
+    }
+    .cancelbtn, .signupbtn {
+        width: 100%;
+     }
+  }
+  
+  .banner_part .banner_text {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: center;
+    z-index: 99;
+    margin-top: 60px;
+  }
+  
+  @media (max-width: 576px) {
+    .banner_part .banner_text {
+      text-align: center;
+      padding-top: 0px;
+    }
+    .map{
+        width: 400px;
+        height: 500px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part .banner_text {
+      text-align: center;
+      padding-top: 0px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part .banner_text {
+      text-align: center;
+      padding-top: 0px;
+    }
+  
+  }
+  .grid-wthree-service {
+    padding: 1em 1em;
+    }
+    .grid-wthree-service img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px #a2a2a2;
+    }
+    .grid-wthree-service {
+    background: rgb(255, 255, 255);
+    padding: 2em 1.5em;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0px 0px 9px #c7c7c7;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.grid-wthree-service:hover {
+    background: #30304e;
+    color: white;
+    
+}
+.grid-wthree-service {
+    padding: 1.8em 1.5em;
+}
+.grid-wthree-service {
+    padding: 1.6em 1.3em;
+}
+.grid-wthree-service {
+    padding: 1.4em 1.3em;
+}
+.grid-wthree-service {
+    padding: 1.2em 1.1em;
+}
+.grid-wthree-service {
+    padding: 1.1em 1em;
+}
+
+.message-btn {
+	padding: 16px 38px;
+    margin-top: 20px;
+	border: none;
+	background: #8AD144;
+	color: #fff;
+	cursor: pointer;
+}
+
+.newslatter-section .newslatter-text .site-btn .news-btn {
+	padding: 16px 38px;
+    margin-top: 20px;
+	border: none;
+	background: #8AD144;
+	color: #fff;
+	cursor: pointer;
+}
+.map{
+    width: 1000px;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 70%;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   

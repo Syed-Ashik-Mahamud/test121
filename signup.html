@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Fire Service</title>
+    <style>
+      
+      .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  .imputfield {
+    width: 60%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-left: 350px;
+
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+    .box{
+        display: flex;
+    }  
+
+    .message-btn {
+	padding: 16px 38px;
+    margin-top: 20px;
+    margin-left: 350px;
+	border: none;
+	background: #8AD144;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .message-btn {
+	padding: 16px 38px;
+    margin-top: 20px;
+    margin-left: 155px;
+	border: none;
+	background: #8AD144;
+	color: #fff;
+	cursor: pointer;
+}
+.imputfield{
+    width: 60%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-left: 100px;
+
+  }
+}
+
+    </style>
+</head>
+
+<body>
+        <!--menu-->
+    <div class="row">
+       
+        <div class="topnav" id="myTopnav">
+            <a class="navbar-brand logoheader" href="home.html">
+                <img src="img/logo1.png" alt="fire" class="logoheader">
+            </a>
+            <div class="list">
+                <a href="home.html" >Home</a>
+                <a href="#">Services</a>
+                <a href="product.html">Products</a>
+                <a href="#">Our Client</a>
+                <a href="about.html">About Us</a>
+                <a href="signup.html">SignUp</a>
+                <a href="login.html">Login</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+    </div>
+      
+    <!--slider-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-content-center">
+                <div class="col-lg-7 col-xl-5">
+                    <div class="banner_text">
+                        <h1><span>Sign Up</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br/><br/>
+
+
+    <div style="margin-left: 50px;" class="box"></div>
+        <form class="form-contact contact_form" method="post" id="contactForm"
+          novalidate="novalidate">
+          <div class="row imputfield">
+           
+            <div class="col-12">
+              <div class="form-group">
+                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
+              </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control" name="password" id="password" type="text" placeholder="Enter Password">
+                </div>
+              </div>
+            <div class="col-12">
+              <div class="form-group">
+                <input class="form-control" name="repassword" id="repassword" type="text" placeholder="Enter Re-Password">
+              </div>
+            </div>
+          </div>
+          <div class="form-group mt-2 mb-5 mb-lg-0">
+              <button type="submit" class="message-btn">Register Now</button>
+          </div>
+        </form>
+    </div>
+
+
+<br/><br/>
+        <!--new product close-->
+        <!--Email-->
+        <section class="newslatter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="newslatter-text">
+                           
+                            <h4 class="">Newsletter Subscribe </h4>
+                            <form class="subs">
+                                <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+                                <button type="submit" class="message-btn">Subscribe!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+     
+
+      <!--Footer-->
+      <footer id="footer" class="footerclass">
+		
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-4 footer1">
+					<div class="footer">
+						<div class="footer-logo">
+							<a class="logo" href="#" ><img src="./img/logo1.png" alt=""></a>
+						</div>
+					      
+            <p class="address"><span class="fa fa-map-signs"></span> AFAS, Dhaka Bangladesh</p>
+            <p class="address"><span class="fa fa-phone"></span> Phone: +8801762259976</p>
+            <p class="address"><span class="fa fa-envelope"></span> Email: FireService@gmail.com</p>
+					</div>
+				</div>
+               
+				<div class="col-md-4">
+					<div class="footer">
+						<h3 class="footer-title">Gallery</h3>
+						<ul class="footer-galery">
+							<li><a href="#"><img src="./img/1.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/2.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/3.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/4.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/5.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/6.jpg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+
+                <!---->
+
+				<!-- close footer galery -->
+				<div class="col-md-4">
+					<div class="footer">
+						<h3 class="gallery-title">Drop a note.</h3>
+						<form class="form-contact contact_form" action="#" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                            
+                            <div class="col-sm-2 col-md-6">
+                                <div class="form-group">
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-md-6">
+                                <div class="form-group">
+                                <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-12">
+                                <div class="form-group">
+                                <textarea class="form-control w-100" name="message" id="message" cols="30" rows="5" placeholder="Enter Message"></textarea>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="form-group mt-2 mb-5 mb-lg-0">
+                            <button type="submit" class="submitbtn emailfire">Send Message</button>
+                            </div>
+                        </form>
+						
+					</div>
+				</div>
+				<!--footer Close-->
+
+                <div class="copyright">
+                    <span class="span2">Copyright &#169;
+                     2021 
+                     
+                    All Rights Reserved. </span>
+                  
+                    
+                  
+                </div>
+			</div>
+           
+			
+	</footer>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    
+       
+        </body>
+        </html>
+        
